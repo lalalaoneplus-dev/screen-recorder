@@ -1,0 +1,24 @@
+build/
+build.local.env
+*.bak
+.DS_Store
+*.mov
+*.mp4
+*.dmg
+*.zip
+
+# Never publish signing material, local config or logs
+.env*
+*.env
+*.p12
+*.p8
+*.cer
+*.pem
+*.key
+*.mobileprovision
+*.provisionprofile
+xcuserdata/
+DerivedData/
+.swiftpm/
+.claude/
+*.log
